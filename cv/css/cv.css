@@ -1,0 +1,299 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+body {
+  font-family: "Open Sans", system-ui, sans-serif;
+  font-size: 1rem;
+  background-color: rgb(49, 57, 68);
+  line-height: 1.7;
+}
+body main {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  color: rgb(19, 68, 135);
+  display: flex;
+  flex-flow: nowrap;
+  -moz-box-pack: justify;
+}
+@media screen and (max-width: 40em) {
+  body main {
+    flex-flow: column-reverse;
+  }
+}
+@media screen and (min-width: 52em) {
+  body main {
+    margin: 2.5rem auto;
+  }
+}
+@media screen {
+  body main {
+    border-radius: 2px;
+    max-width: 60rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 4px;
+    min-height: 1200px;
+  }
+}
+body section.main {
+  align-self: stretch;
+  padding: 1.5rem 1.7rem;
+  background-color: #FFFFFF;
+}
+@media (min-width: 64em) {
+  body section.main {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+@media (min-width: 40em) {
+  body section.main {
+    width: 66.6667%;
+  }
+}
+body section.information {
+  align-self: stretch;
+  padding: 1.5rem 1.7rem;
+  background-color: rgb(228, 238, 252);
+}
+@media (min-width: 64em) {
+  body section.information {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+@media (min-width: 40em) {
+  body section.information {
+    width: 33.3333%;
+  }
+}
+body section.information header .title {
+  line-height: 1.22;
+  font-size: 2.5rem;
+  margin: 0;
+  color: rgb(33, 66, 111);
+}
+@media (min-width: 40em) {
+  body section.information header .title {
+    margin-bottom: 1.77rem;
+    max-width: 15rem;
+  }
+}
+body section.information .subtitle {
+  font-size: 1.5rem;
+  color: rgb(75, 116, 172);
+}
+body section.information footer ul.contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+body section.information footer ul.contact li {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  text-overflow: ellipsis;
+}
+body section.information footer ul.contact li .contact-icon {
+  width: 18px;
+  min-width: 18px;
+  margin-right: 16px;
+}
+body section.information footer ul.contact li a {
+  flex: 1 1 0;
+  transition: color 0.15s ease-out 0s;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: rgb(75, 115, 172);
+}
+body section.information footer ul.contact li a:visited {
+  color: rgb(75, 115, 172);
+}
+body section.information hr {
+  border-color: rgb(175, 204, 244);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+body p {
+  font-size: 0.83rem;
+  margin-top: 0;
+  margin-bottom: 1.6667rem;
+}
+
+ul.experience-list {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+ul.experience-list li.experience-entry {
+  margin: 7px 0 0;
+  padding: 0;
+}
+ul.experience-list li.experience-entry div.work-title {
+  display: flex;
+  align-items: center;
+  font-size: 0.87rem;
+  font-weight: 600;
+}
+ul.experience-list li.experience-entry div.work-title img.work-icon {
+  width: 34px;
+  margin-right: 16px;
+}
+ul.experience-list li.experience-entry div.work-title .intermediate-circle {
+  width: 16px;
+  padding-right: 4px;
+  margin-left: 8px;
+  margin-right: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: rgb(116, 161, 224);
+}
+ul.experience-list li.experience-entry div.work-title .intermediate-circle svg {
+  width: 8px;
+}
+ul.experience-list li.experience-entry div.work-title small {
+  color: rgb(116, 161, 224);
+}
+ul.experience-list li.experience-entry div.work-title h3 {
+  font-family: "Open Sans", system-ui, sans-serif;
+  margin: 0 0 4px;
+  font-size: 0.89rem;
+  line-height: 1;
+  font-weight: 600;
+  color: rgb(19, 68, 135);
+}
+ul.experience-list li.experience-entry:last-of-type div.work-content {
+  border-left: none;
+}
+ul.experience-list li.experience-entry div.work-content {
+  font-size: 0.8em;
+  margin: 8px 0 0 14px;
+  padding: 0 0 6px 34px;
+  border-left: 2px solid #b3cbee;
+}
+
+a, a:visited {
+  font-weight: 600;
+  color: rgb(25, 118, 210);
+  text-decoration: none;
+  transition: color 0.3s ease-out 0s;
+}
+a.subtle, a.subtle:visited, a:visited.subtle, a:visited.subtle:visited {
+  font-weight: inherit;
+  color: inherit;
+}
+
+ul.work-content-list {
+  list-style-type: square;
+  margin-bottom: 2.5em;
+}
+
+p.key-techs {
+  margin-top: -10px;
+  font-size: 0.66667rem;
+}
+
+hr {
+  border: 1px solid currentcolor;
+  margin: -1px 0px;
+}
+
+.skillset {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2.5em;
+  font-size: 0.83rem;
+}
+.skillset .skill {
+  margin-top: 0.5em;
+  height: 100%;
+}
+
+.progress {
+  display: flex;
+  height: 0.3rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.75rem;
+  background-color: #b6d1f7;
+  border-radius: 0.25rem;
+  margin-right: 4px;
+  margin-top: 0;
+  width: 90%;
+}
+.progress .progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width 0.6s ease;
+}
+@media print {
+  .progress {
+    position: relative;
+  }
+  .progress:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    border-bottom: 2rem solid #eeeeee;
+  }
+  .progress .progress-bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: 2rem solid #337ab7;
+  }
+}
+
+h2 {
+  color: rgb(33, 66, 111);
+  font-size: 1.3rem;
+  line-height: 1.22;
+  margin-bottom: 1.11rem;
+  display: inline-block;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+h2::after {
+  content: " ";
+  background-color: rgba(74, 142, 235, 0.25);
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  z-index: -1;
+  top: 14px;
+  left: 8px;
+}/*# sourceMappingURL=cv.css.map */
