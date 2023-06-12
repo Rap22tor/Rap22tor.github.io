@@ -190,6 +190,12 @@ ul.experience-list li.experience-entry div.work-content {
   padding: 0 0 6px 34px;
   border-left: 2px solid #b3cbee;
 }
+ul.experience-list li.experience-entry div.work-content-single {
+  font-size: 0.8em;
+  margin: 8px 0 0 14px;
+  padding: 0 0 6px 34px;
+  border-left: none;
+}
 
 a, a:visited {
   font-weight: 600;
